@@ -1,0 +1,29 @@
+{
+  "name": "tnarik/rocketeer-environment",
+  "description": "Environment plugin for Rocketeer",
+  "license": "MIT",
+  "keywords": [
+    "rocketeer",
+    "deployment",
+    "laravel",
+    "environment"
+  ],
+  "authors": [
+    {
+      "name": "Tnarik Innael",
+      "email": "tnarik@lecafeautomatique.co.uk"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "suggest": {
+    "anahkiasen/rocketeer": "This is a Rocketeer Plugin, so you better use it with Rocketeer."
+  },
+  "autoload": {
+    "psr-4": {
+      "Tnarik\\RocketeerEnvironment\\": "src/RocketeerEnvironment/"
+    }
+  },
+  "minimum-stability": "stable"
+}
